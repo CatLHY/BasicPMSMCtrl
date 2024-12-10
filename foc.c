@@ -9,7 +9,7 @@ extern float GetIdIq();
 
 void CurrentCtrl() {
 
-    float MotorSpeed_Ele, MotorAngle_Ele, ;
+    float MotorSpeed_Ele, MotorAngle_Ele;
 
     MotorAngle_Ele = GetAngle_Ele();
     MotorSpeed_Ele = GetSpeed_Ele();
