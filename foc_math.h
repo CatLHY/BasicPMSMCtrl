@@ -9,6 +9,22 @@
 #ifndef FOC_MATH_H_
 #define FOC_MATH_H_
 
+typedef struct {
+    float U_phase;
+    float V_phase;
+    float W_phase;
+} ThreePhaseSystem_t;
+
+typedef struct {
+    float Alpha_axis;
+    float Beta_axis;
+} AlphaBetaSystem_t;
+
+typedef struct {
+    float D_axis;
+    float Q_axis;
+} DQ_System_t;
+
 
 
 float Park();
