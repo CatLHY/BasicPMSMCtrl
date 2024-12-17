@@ -1,5 +1,4 @@
-*.drawio
-*.vscode
-*.code-workspace
 
-foc_math.h
+*.drawio
+.vscode/*
+*.code-workspace
